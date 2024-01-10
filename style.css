@@ -1,0 +1,22 @@
+
+tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+tr:first-child{
+    background-color: #6d7ae0;
+    color: white;
+}
+td{
+    width: 100px;
+}
+table{
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+tr:nth-child(even){
+    background-color: #fafafa;
+}
+
